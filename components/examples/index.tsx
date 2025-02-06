@@ -10,7 +10,7 @@ export const ExamplesComponent = ({baseColor}: baseColorType) => {
 					Starter Pages & <span style={{color: baseColor}}>Examples</span>
 				</p>
 				<p className="text-gray-400 w-[40em] max-md:w-full mx-auto">
-					Kick-start your projects with Preline Pro's wide range of examples,
+					Kick-start your projects with Preline Pros wide range of examples,
 					using pre-built UI parts, custom components and layouts using Tailwind
 					CSS
 				</p>

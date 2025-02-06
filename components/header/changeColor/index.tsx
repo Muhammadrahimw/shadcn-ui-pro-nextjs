@@ -5,7 +5,6 @@ import {RootState} from "../../../redux/store";
 import {useDispatch, useSelector} from "react-redux";
 import {updateColor} from "@/redux/colors-slice";
 import {useEffect, useState} from "react";
-import {GetServerSideProps} from "next";
 
 export const ChangeColor = () => {
 	const [themeState, setThemeState] = useState<"dark" | "light">("dark");
@@ -14,7 +13,7 @@ export const ChangeColor = () => {
 	useEffect(() => {
 		dispatch(updateColor(localStorage.getItem("baseColor") || "gray"));
 		setThemeState(localStorage.getItem("theme") as "dark" | "light");
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<>

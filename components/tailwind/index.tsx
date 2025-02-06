@@ -10,7 +10,7 @@ export const TailwindComponent = ({baseColor}: baseColorType) => {
 					Tailwind CSS <span style={{color: baseColor}}>Components</span>
 				</p>
 				<p className="text-gray-400 w-[40em] max-md:w-full mx-auto">
-					Based on the Tailwind CSS utility classes, Preline UI's prebuilt
+					Based on the Tailwind CSS utility classes, Preline UIs prebuilt
 					components and UI elements help you quickly design and customize
 					responsive mobile-first websites.
 				</p>
